@@ -1,0 +1,82 @@
+.category-btn-container{
+    padding: 0 10px 0 15px;
+    margin: 0 15px 10px 0;
+}
+
+.category-btn-container-no-select{
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background:#ECF0F4;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: auto;
+    p{
+    color: #979797;
+
+    }
+}
+
+.category-btn-container-select{
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    background:#729CA2;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: auto;
+    p{
+    color: white;
+
+    }
+}
+.white-plus{
+    color:white;
+}
+
+.gray-plus{
+    color:#979797;
+}
+.list-btn-container{
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    background:#729CA2;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-right: 15px;
+    width: auto;
+    margin: 0 0 5px 0;
+    p{
+    color: white;
+    }
+}
+.even-padding-btn{
+    padding: 0 15px;
+}
+
+.category-icon{
+    margin-left: 5px;
+}
+
+.removed-category{
+    display: none;
+}

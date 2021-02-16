@@ -1,0 +1,20 @@
+.header-container{
+  font-family: Bai Jamjuree, sans-serif;
+  margin-right: 20px;
+
+  & .heading-txt{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FF893B;
+    margin-top: 0;
+  };
+
+  & .remove-bot{
+    margin: 0
+  }
+
+  & .sub-txt{
+    font-weight: 500;
+    font-size: 15px;
+  }
+}

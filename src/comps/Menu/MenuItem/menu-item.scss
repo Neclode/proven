@@ -1,0 +1,35 @@
+.menu-item{
+  display: inline-grid;
+  grid-template-columns: minmax(auto, 1fr) 2fr;
+  grid-gap: 10px;
+  align-items: center;
+  width: 15vw;
+  background-color: #465461;
+  font-family: 'Bai Jamjuree', sans-serif;
+  height: 50px;
+  text-decoration: none;
+  & > * {
+    color: white;
+  };
+  svg {
+    width: 40%;
+    height: 40%;
+    justify-self: end;
+    stroke-width: 1.5px;
+}
+}
+.active{
+  border-left: solid 5px #FF893B;
+  background-color: #404D59;
+}
+
+.collapsed-menu-item{
+  grid-template-columns: 1fr;
+  width: 7vw;
+  svg{
+    justify-self: center;
+    width: 50%;
+    height: 50%;
+    stroke-width: 1.5px;
+  }
+}

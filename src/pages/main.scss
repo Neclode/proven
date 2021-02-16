@@ -1,0 +1,19 @@
+@import "Dashboard/dashboard";
+@import "Projects/projects";
+@import "Vendors/vendors";
+@import "CreatePost/create-post";
+@import "Payment/payment";
+
+.main-container{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  justify-content: stretch;
+
+  & .main-content{
+    flex: 1
+  }
+}

@@ -1,0 +1,53 @@
+.form-container{
+  font-family: Bai Jamjuree, sans-serif;
+  margin: 25px 0;
+  padding: 50px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  & .form-heading{
+    font-weight: 600;
+    font-size: 16px;
+    color: #729CA2;
+  }
+
+  & .form-heading-margin{
+    margin-top: 0;
+  }
+}
+
+.form-col-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-col-2{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 50px;
+}
+
+.form-col-3{
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-gap: 50px;
+}
+
+.form-sub{
+  font-weight: 600;
+  font-size: 12px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-star{
+  color: red;
+}
+
+.edit-btn{
+  font-weight: 600;
+  margin: 0;
+  color: #4FAAFF;
+  font-family: "Open Sans", sans-serif;
+  text-align: right;
+}
